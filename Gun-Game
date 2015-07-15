@@ -1,0 +1,43 @@
+class Tutorial
+#Introduction
+puts "As the helicopters whirr above, you breathe in the damp air, and wonder."
+puts "\"What will life be like when this is all over?\""
+puts "Sergeant Gaz marches into the barracks. Loud thumping footsteps echo along the concrete floor."
+puts "\"The alien invasion has conquered much of the world.\""
+puts "\"Fortunately, we're still alive.\""
+puts "\"And I'd like to keep it that way.\""
+puts "\"Fight for your family, friends, and loved ones.\""
+puts "\"Try to have a bit of fun while you're at it.\""
+#Tutorial
+puts "Welcome to base training"
+puts "Before you're deployed, we're going to give you some tips."
+ 16 puts "Type in /fire to destroy the target in front of you."
+ 17 @dummy = 5
+ 18 @pistol = 5
+ 19 def dummy_death
+ 20    while @dummy != 0 do
+ 21      @dummy-=@pistol
+if @dummy == 0
+ 23              puts "Dummy down!"
+ 24             break
+ 25         end
+ 26     end
+ 27 end
+ 28 
+ 29 if gets.chomp.downcase == "/fire"
+ 30    
+ 31 end
+ 32 
+ 33 def controls (controls)
+ 34     puts "Controls:"
+ 35     puts "Fire pistol: (/fire pistol)= 5 damage."
+ 36     puts "Fire assault rifle: (/fire rifle)= 10 damage."
+ 37     puts "Throw grenade: (/throw)"
+ 38     puts "Sprint: (/sprint)"
+ 39 end
+ def dummy (fire)
+ 42     dummy = 5
+ 43     dummy - fire
+ 44 end
+ 45 end
+
