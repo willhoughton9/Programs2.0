@@ -40,4 +40,6 @@ if @dummy == 0
  43     dummy - fire
  44 end
  45 end
+ 
+ puts 'What are you doing!!'
 
